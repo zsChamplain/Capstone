@@ -11,8 +11,57 @@
           -58,
           1
         ]
+      },
+      "ideas": {
+        "1": {
+          "title": "Design\n",
+          "id": 2,
+          "ideas": {
+            "1": {
+              "title": "Research language design",
+              "id": 4,
+              "ideas": {
+                "1": {
+                  "title": "Champlain library",
+                  "id": 5,
+                  "attr": {
+                    "note": {
+                      "index": 4,
+                      "text": "Books on paradigms (procedural, functional, OOP, etc.)"
+                    }
+                  }
+                },
+                "7": {
+                  "title": "Past experts",
+                  "id": 10,
+                  "attr": {
+                    "note": {
+                      "index": 6,
+                      "text": "Writings of experts like standardization comity members & designers like Edsger Dijkstra and Niklaus Wirth"
+                    },
+                    "position": [
+                      191,
+                      -3,
+                      2
+                    ]
+                  }
+                }
+              }
+            }
+          }
+        },
+        "-10": {
+          "title": "Implementation",
+          "id": 3,
+          "attr": {
+            "style": {
+              "backgroundColor": "#FF6600"
+            }
+          }
+        }
       }
     }
   },
-  "title": "Text"
+  "title": "Text",
+  "links": []
 }
