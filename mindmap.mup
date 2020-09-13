@@ -1,0 +1,18 @@
+{
+  "formatVersion": 3,
+  "id": "root",
+  "ideas": {
+    "1": {
+      "title": "Text",
+      "id": 1,
+      "attr": {
+        "position": [
+          -77,
+          -58,
+          1
+        ]
+      }
+    }
+  },
+  "title": "Text"
+}
