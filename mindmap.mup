@@ -3,7 +3,7 @@
   "id": "root",
   "ideas": {
     "1": {
-      "title": "Text",
+      "title": "Programming language",
       "id": 1,
       "attr": {
         "position": [
@@ -14,7 +14,7 @@
       },
       "ideas": {
         "1": {
-          "title": "Design\n",
+          "title": "Design",
           "id": 2,
           "ideas": {
             "1": {
@@ -63,7 +63,7 @@
                   }
                 },
                 "2": {
-                  "title": "CDL",
+                  "title": "CDL3",
                   "id": 14,
                   "attr": {
                     "note": {
@@ -120,8 +120,8 @@
                   "id": 19,
                   "attr": {
                     "position": [
-                      99,
-                      -23,
+                      41,
+                      -35,
                       1
                     ],
                     "note": {
@@ -265,6 +265,24 @@
                       "backgroundColor": "#FF0000"
                     }
                   }
+                },
+                "1.5": {
+                  "title": "Nix package manager",
+                  "id": 37,
+                  "attr": {
+                    "note": {
+                      "index": 24,
+                      "text": "A general package manager for any POSIX-compliant Unix-like OS which distributes source to compile on systems during installation, and sometimes pre-compiled binaries."
+                    },
+                    "position": [
+                      177,
+                      -34,
+                      1
+                    ],
+                    "style": {
+                      "backgroundColor": "#FF6600"
+                    }
+                  }
                 }
               },
               "attr": {
@@ -276,12 +294,40 @@
                   "backgroundColor": "#FFFF00"
                 }
               }
+            },
+            "3": {
+              "title": "Editor support",
+              "id": 39,
+              "attr": {
+                "style": {
+                  "backgroundColor": "#FF6600"
+                },
+                "note": {
+                  "index": 25,
+                  "text": "I consider this out-of-scope for the Capstone, and would only be something for me to consider later on."
+                }
+              },
+              "ideas": {
+                "1": {
+                  "title": "Vim",
+                  "id": 40,
+                  "attr": {
+                    "note": {
+                      "index": 26,
+                      "text": "I might be able to write a vimscript for syntax highlighting."
+                    },
+                    "style": {
+                      "backgroundColor": "#FF6600"
+                    }
+                  }
+                }
+              }
             }
           }
         }
       }
     }
   },
-  "title": "Text",
+  "title": "Programming language",
   "links": []
 }
