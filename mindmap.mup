@@ -174,7 +174,10 @@
                   "attr": {
                     "note": {
                       "index": 15,
-                      "text": "I develop on Linux, so it is the primary platform."
+                      "text": "I develop on Linux, so it is the primary platform. Of the following solutions, AppImage is the most practical for the duration of the Capstone."
+                    },
+                    "style": {
+                      "backgroundColor": "#FFFF00"
                     }
                   },
                   "ideas": {
@@ -225,12 +228,52 @@
                       }
                     }
                   }
+                },
+                "2": {
+                  "title": "Windows 10",
+                  "id": 33,
+                  "ideas": {
+                    "1": {
+                      "title": "MSYS2",
+                      "id": 34,
+                      "attr": {
+                        "note": {
+                          "index": 22,
+                          "text": "Inkscape uses MSYS2, which I may be able to learn enough about to build on Windows."
+                        },
+                        "style": {
+                          "backgroundColor": "#FF6600"
+                        }
+                      }
+                    }
+                  },
+                  "attr": {
+                    "style": {
+                      "backgroundColor": "#FF6600"
+                    }
+                  }
+                },
+                "3": {
+                  "title": "MacOS",
+                  "id": 35,
+                  "attr": {
+                    "note": {
+                      "index": 23,
+                      "text": "I currently have no plans to add support for this platform at this time, and have no idea how I would go about building it, nor do I own a system running this platform with which to do the building and testing on."
+                    },
+                    "style": {
+                      "backgroundColor": "#FF0000"
+                    }
+                  }
                 }
               },
               "attr": {
                 "note": {
                   "index": 14,
                   "text": "Steps regarding how the compiler would be built for and distributed to multiple platforms."
+                },
+                "style": {
+                  "backgroundColor": "#FFFF00"
                 }
               }
             }
