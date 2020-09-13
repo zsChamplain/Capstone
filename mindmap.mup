@@ -18,7 +18,7 @@
           "id": 2,
           "ideas": {
             "1": {
-              "title": "Research language design",
+              "title": "Language design research",
               "id": 4,
               "ideas": {
                 "1": {
@@ -27,7 +27,7 @@
                   "attr": {
                     "note": {
                       "index": 4,
-                      "text": "Books on paradigms (procedural, functional, OOP, etc.)"
+                      "text": "Books on paradigms (procedural, functional, OOP, etc.)."
                     }
                   }
                 },
@@ -37,13 +37,42 @@
                   "attr": {
                     "note": {
                       "index": 6,
-                      "text": "Writings of experts like standardization comity members & designers like Edsger Dijkstra and Niklaus Wirth"
+                      "text": "Writings of experts like standardization comity members & designers like Edsger Dijkstra and Niklaus Wirth."
                     },
                     "position": [
                       191,
                       -3,
                       2
                     ]
+                  }
+                }
+              }
+            },
+            "2": {
+              "title": "Language description",
+              "id": 12,
+              "ideas": {
+                "1": {
+                  "title": "BNF",
+                  "id": 13,
+                  "attr": {
+                    "note": {
+                      "index": 7,
+                      "text": "Context-free language description in a specialized syntax form like BNF, EBNF, ABNF, etc.."
+                    }
+                  }
+                },
+                "2": {
+                  "title": "CDL",
+                  "id": 14,
+                  "attr": {
+                    "note": {
+                      "index": 8,
+                      "text": "Compiler Description Language (or similar lexer generator) program to read actual source code and potentially check for validity, but not actually compile to machine code."
+                    },
+                    "style": {
+                      "backgroundColor": "#FFFF00"
+                    }
                   }
                 }
               }
@@ -56,6 +85,154 @@
           "attr": {
             "style": {
               "backgroundColor": "#FF6600"
+            }
+          },
+          "ideas": {
+            "1": {
+              "title": "Compiler",
+              "id": 16,
+              "ideas": {
+                "1": {
+                  "title": "C++",
+                  "id": 17,
+                  "attr": {
+                    "note": {
+                      "index": 11,
+                      "text": "I am taking a class in it now."
+                    }
+                  }
+                },
+                "2": {
+                  "title": "LLVM",
+                  "id": 18,
+                  "attr": {
+                    "note": {
+                      "index": 12,
+                      "text": "Library for making compilers for various platforms, which I have already researched somewhat. It has a tutorial wherein learners make a compiler for a primitive language, teaching the basics involved."
+                    },
+                    "style": {
+                      "backgroundColor": "#FF6600"
+                    }
+                  }
+                },
+                "1.5": {
+                  "title": "Compiler design",
+                  "id": 19,
+                  "attr": {
+                    "position": [
+                      99,
+                      -23,
+                      1
+                    ],
+                    "note": {
+                      "index": 12,
+                      "text": "Some of the same experts who worked in language design also worked in compiler design, relating back the the research component."
+                    }
+                  }
+                },
+                "1.75": {
+                  "title": "GitLab",
+                  "id": 25,
+                  "attr": {
+                    "note": {
+                      "index": 16,
+                      "text": "Many Open Source projects host their code on GitLab."
+                    }
+                  }
+                },
+                "1.875": {
+                  "title": "CMake",
+                  "id": 29,
+                  "attr": {
+                    "note": {
+                      "index": 15,
+                      "text": "CMake might be a good tool for building a C++ project like this, but as I have barely used Make it might be a learning curve."
+                    },
+                    "style": {
+                      "backgroundColor": "#FFFF00"
+                    }
+                  }
+                }
+              },
+              "attr": {
+                "note": {
+                  "index": 10,
+                  "text": "Steps regarding how the compiler would be written."
+                },
+                "style": {
+                  "backgroundColor": "#FF6600"
+                }
+              }
+            },
+            "2": {
+              "title": "Building and packaging",
+              "id": 22,
+              "ideas": {
+                "1": {
+                  "title": "Linux",
+                  "id": 24,
+                  "attr": {
+                    "note": {
+                      "index": 15,
+                      "text": "I develop on Linux, so it is the primary platform."
+                    }
+                  },
+                  "ideas": {
+                    "3": {
+                      "title": "AppImage",
+                      "id": 30,
+                      "ideas": {},
+                      "attr": {
+                        "note": {
+                          "index": 19,
+                          "text": "The easiest way to build for Linux, but does not provide installed package or easy updates without downloading new version manually. For my project it should be sufficient, however."
+                        },
+                        "style": {
+                          "backgroundColor": "#FFFF00"
+                        }
+                      }
+                    },
+                    "8": {
+                      "title": "Flatpak",
+                      "id": 32,
+                      "attr": {
+                        "note": {
+                          "index": 20,
+                          "text": "Instead of packaging for each distro separately, this sandboxed solution provides added security and cross-distro distribution of the compiler, but I know almost nothing else about it yet."
+                        },
+                        "style": {
+                          "backgroundColor": "#FF6600"
+                        }
+                      }
+                    },
+                    "13": {
+                      "title": "OpenBuildService",
+                      "id": 26,
+                      "ideas": {},
+                      "attr": {
+                        "note": {
+                          "index": 17,
+                          "text": "build.opensuse.org offers building of source for multiple Linux distros for users to then easily download native packages for their distro. I do not know how this works with CMAKE."
+                        },
+                        "position": [
+                          65,
+                          57,
+                          1
+                        ],
+                        "style": {
+                          "backgroundColor": "#FF6600"
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              "attr": {
+                "note": {
+                  "index": 14,
+                  "text": "Steps regarding how the compiler would be built for and distributed to multiple platforms."
+                }
+              }
             }
           }
         }
