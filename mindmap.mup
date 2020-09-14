@@ -13,9 +13,9 @@
         ]
       },
       "ideas": {
-        "1": {
+        "2": {
           "title": "Design",
-          "id": 2,
+          "id": 42,
           "ideas": {
             "1": {
               "title": "Language design research",
@@ -32,7 +32,7 @@
                   }
                 },
                 "7": {
-                  "title": "Past experts",
+                  "title": "Experts",
                   "id": 10,
                   "attr": {
                     "note": {
@@ -46,7 +46,8 @@
                     ]
                   }
                 }
-              }
+              },
+              "attr": {}
             },
             "2": {
               "title": "Language description",
@@ -74,6 +75,22 @@
                       "backgroundColor": "#FFFF00"
                     }
                   }
+                }
+              },
+              "attr": {
+                "note": {
+                  "index": 6,
+                  "text": "What the language would actually look like."
+                }
+              }
+            },
+            "3": {
+              "title": "Explanation",
+              "id": 41,
+              "attr": {
+                "note": {
+                  "index": 9,
+                  "text": "Covers how the language works, as well as the merits of this language, and why one may wish to choose it for a project over some other languages. Also, if I can do at least some of the implementation phase, there would be notes from that as well about what worked and why some things didn't. This would also include code samples that would either actually compile or should theoretically do so depending on whether or not a compiler is made."
                 }
               }
             }
